@@ -5,9 +5,9 @@ import React from 'react'
 const Contact = () => {
     return (
         <div>
-            <div className="flex items-center min-h-screen bg-black text-white p-11">
+            <div className="flex items-center min-h-screen bg-black text-white p-4">
                 <div className="mx-auto  mb-8">
-                    <h1 className="text-8xl font-bold m-8 text-pink-600 text-center mb-16">
+                    <h1 className="text-6xl font-bold m-8 text-pink-600 text-center mb-">
                         &lt;Contact Me/&gt;
                     </h1>
 
@@ -19,7 +19,7 @@ const Contact = () => {
                                 id="name"
                                 name="name"
                                 aria-label="Name"
-                                className="w-full px-5 py-5 bg-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+                                className="w-full px-3 py-4 bg-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
                             />
                         </div>
                         <div>
@@ -29,7 +29,7 @@ const Contact = () => {
                                 id="email"
                                 name="email"
                                 aria-label="Email"
-                                className="w-full  px-5 py-5 bg-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+                                className="w-full  px-3 py-4 bg-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
                             />
                         </div>
                         <div>

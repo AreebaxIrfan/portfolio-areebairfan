@@ -9,14 +9,14 @@ const HeroSection = () => {
 
             <div className='md:w-1/2 mx-auto md:ml-16 md:mr-10 text-center md:text-left mb-6 pb-40 md:mb-0 relative z-10'>
 
-                <h1 className='text-3xl sm:text-5xl md:text-7xl font-bold mb-4'>Hello, I'm Areeba Irfan</h1>
-                <h2 className='text-xl sm:text-2xl md:text-5xl font-semibold mb-10 mt-10 text-pink-600'>Frontend Developer</h2>
+                <h1 className='text-4xl sm:text-5xl md:text-5xl font-bold mb-3'>Hello, I'm Areeba Irfan</h1>
+                <h2 className='text-2xl sm:text-2xl md:text-3xl font-semibold mb-5 mt-5 text-pink-600'>Frontend Developer</h2>
 
-                <p className='text-2xl mb-6'>
+                <p className='text-xl mb-5'>
                     Passionate about creating beautiful and functional web experiences. I love turning ideas into reality through code.
                 </p>
 
-                <div className='relative inline-block mx-auto mt-6'>
+                <div className='relative inline-block mx-auto mt-5'>
                     <div className='absolute -inset-1 bg-pink-600 rounded-full blur opacity-95 pointer-events-none'></div>
                     <Link href="/About" className='relative bg-black hover:bg-gray-800 text-white font-bold py-3 px-6 rounded transition duration-300'>
                         Learn More About Me
@@ -38,8 +38,8 @@ const HeroSection = () => {
                     <Image
                         src="/circle.png"
                         alt="backgrounf picture"
-                        width={500}
-                        height={600}
+                        width={400}
+                        height={300}
                         className=''
                     />
                     <Image

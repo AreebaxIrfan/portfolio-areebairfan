@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='relative w-full flex flex-row bg-black justify-between items-center shadow-md pl-6 pr-6'>
       <div className='relative mb-4 sm:mb-0'>
-        <img src="semi.png" alt="" width={190} height={170} className='object-contain' />
+        <img src="semi.png" alt="" width={170} height={170} className='object-contain' />
       </div>
       <div className='absolute top-5 sm:top-0 md:top-5 left-3 pl-4'>
         <p className='text-2xl font-semibold text-gray-100 hidden pl-2 md:block'>Areeba Irfan</p>
@@ -15,16 +15,16 @@ const Navbar = () => {
         <Link href={"/"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md sm:text-base'>
           Home
         </Link>
-        <Link href={"/components/About"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-sm sm:text-base'>
+        <Link href={"/About"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-sm sm:text-base'>
           About
         </Link>
-        <Link href={"components/Protfolio"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-xl sm:text-base'>
+        <Link href={"/Portfolio"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-xl sm:text-base'>
           Portfolio
         </Link>
-        <Link href={"components/Skills"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-sm sm:text-base'>
+        <Link href={"/Skills"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-sm sm:text-base'>
           Skills
         </Link>
-        <Link href={"components/Contact"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-sm sm:text-base'>
+        <Link href={"/Contact"} className='block text-white hover:text-gray-300 hover:bg-stone-800 transition-all duration-200 ease-in-out px-3 py-2 rounded-md text-sm sm:text-base'>
           Contact
         </Link>
       </div>

@@ -2,13 +2,13 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 
-const Protfolio = () => {
+const page = () => {
     return (
         <>  
-            <div className='min-h-screen bg-black text-white p-11'>
-                <h1 className='text-8xl font-bold mb-8 text-center text-pink-600 p-10'>&lt;Portfolio/&gt;</h1>
+            <div className='min-h-screen bg-black text-white p-4'>
+                <h1 className='text-6xl font-bold mb-8 text-center text-pink-600 p-4'>&lt;Portfolio/&gt;</h1>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-11 p-4'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-7 p-2'>
                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60 '>
                         <Image
                             src="/blog-web.jpg"
@@ -105,4 +105,4 @@ const Protfolio = () => {
     )
 }
 
-export default Protfolio
+export default page
