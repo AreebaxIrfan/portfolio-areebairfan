@@ -39,7 +39,7 @@ const page = () => {
                     </div>
                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
                         <Image
-                            src="/book-api.jpg"
+                            src="/book-1.png"
                             alt="Book API"
                             width={400}
                             height={200}
@@ -47,8 +47,8 @@ const page = () => {
                         />
                         <div className='p-6'>
                             <h1 className='text-3xl font-bold mb-2'>Book API Project</h1>
-                            <p className='text-gray-300 mb-4'>A book search application powered by an external API, built with Next.js.</p>
-                            <Link href='https://book-api-project.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
+                            <p className='text-gray-300 mb-4'>A book website with applied the crud functinality , built with Next.js.</p>
+                            <Link href='https://book-website-areeba-irfan.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
                         </div>
                     </div>
                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60 '>
