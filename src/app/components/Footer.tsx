@@ -8,24 +8,24 @@ const Footer = () => {
             <div className='container mx-auto px-4'>
                 <div className='flex flex-wrap justify-between items-center'>
                     <div className='w-full md:w-1/3 mb-6 md:mb-0'>
-                        <h3 className='text-3xl font-bold mb-2'>Areeba Irfan</h3>
+                        <h3 className='text-3xl text-pink-600 font-bold mb-2'>Areeba Irfan</h3>
                         <p className='text-gray-400'>Frontend Developer</p>
 
                     </div>
                     <div className='w-full md:w-1/3 mb-6 md:mb-0'>
                         <h4 className='text-xl font-semibold mb-4'>Quick Links</h4>
                         <nav>
-                            <ul className='space-y-4 '>
+                            <ul className='space-y-4 text-white '>
                                 <li><Link href="/" className='hover:text-pink-500 transition duration-300'>Home</Link></li>
-                                <li><Link href="/" className='hover:text-pink-500 transition duration-300'>About</Link></li>
-                                <li><Link href="/" className='hover:text-pink-500 transition duration-300'>Project</Link></li>
-                                <li><Link href="/" className='hover:text-pink-500 transition duration-300'>Skills</Link></li>
-                                <li><Link href="/" className='hover:text-pink-500 transition duration-300'>Contact</Link></li>
+                                <li><Link href="/About" className='hover:text-pink-500 transition duration-300'>About</Link></li>
+                                <li><Link href="/Project" className='hover:text-pink-500 transition duration-300'>Project</Link></li>
+                                <li><Link href="/Skills" className='hover:text-pink-500 transition duration-300'>Skills</Link></li>
+                                <li><Link href="/Contact" className='hover:text-pink-500 transition duration-300'>Contact</Link></li>
                             </ul>
                         </nav>
                     </div>
                     <div className='w-full md:w-1/3'>
-                        <h4 className='text-2xl  font-semibold mb-5 '>Connect</h4>
+                        <h4 className='text-2xl text-white font-semibold mb-5 '>Connect</h4>
                         <div className='flex space-x-4'>
                         <SocialLink href="www.linkedin.com/in/areebairfan" icon={<FaLinkedin />} />
                 <SocialLink href="https://github.com/Areeba-irfan-Github-account" icon={<FaGithub />} />
@@ -36,8 +36,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-                    <p> &copy; {new Date().getFullYear()}
-                        Areeba Irfan .All rights reserved</p>
+                    <p> &copy; {new Date().getFullYear()} Areeba Irfan .All rights reserved</p>
                 </div>
             </div>
 
