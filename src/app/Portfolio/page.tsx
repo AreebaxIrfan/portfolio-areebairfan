@@ -11,7 +11,7 @@ const page = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-7 p-2'>
                      <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
                         <Image
-                            src="/marketplace.jpg"
+                            src="/SHO-2.png"
                             alt="Marketplace Website"
                             width={400}
                             height={200}
@@ -25,7 +25,7 @@ const page = () => {
                     </div>
                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
                         <Image
-                            src="/blog-web.jpg"
+                            src="/BLOG-1.png"
                             alt="Blog Website"
                             width={400}
                             height={200}
