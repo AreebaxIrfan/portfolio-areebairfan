@@ -20,7 +20,7 @@ const page = () => {
                         <div className='p-6'>
                             <h1 className='text-3xl font-bold mb-2'>Marketplace E-Commerce</h1>
                             <p className='text-gray-300 mb-4'>A feature-rich marketplace with authentication, product filtering, cart, and admin dashboard.</p>
-                            <Link href='https://marketplace-sniky.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
+                            <Link href='https://niky-shoes.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
                         </div>
                     </div>
                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
@@ -34,7 +34,7 @@ const page = () => {
                         <div className='p-6'>
                             <h1 className='text-3xl font-bold mb-2'>Blog Website</h1>
                             <p className='text-gray-300 mb-4'>A modern blog website using Next.js, Tailwind CSS, and CMS integration.</p>
-                            <Link href='https://my-blog-web-gilt.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
+                            <Link href='http://blog-website-khaki-eight.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
                         </div>
                     </div>
                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
