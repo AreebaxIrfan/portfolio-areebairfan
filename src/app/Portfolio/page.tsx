@@ -9,6 +9,48 @@ const page = () => {
                 <h1 className='text-6xl font-bold mb-8 text-center text-pink-600 p-4'>&lt;Portfolio/&gt;</h1>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-7 p-2'>
+                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
+                        <Image
+                            src="/marketplace.jpg"
+                            alt="Marketplace Website"
+                            width={400}
+                            height={200}
+                            className='w-full h-48 object-cover'
+                        />
+                        <div className='p-6'>
+                            <h1 className='text-3xl font-bold mb-2'>Marketplace E-Commerce</h1>
+                            <p className='text-gray-300 mb-4'>A feature-rich marketplace with authentication, product filtering, cart, and admin dashboard.</p>
+                            <Link href='https://marketplace-sniky.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
+                        </div>
+                    </div>
+                    <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
+                        <Image
+                            src="/blog-web.jpg"
+                            alt="Blog Website"
+                            width={400}
+                            height={200}
+                            className='w-full h-48 object-cover'
+                        />
+                        <div className='p-6'>
+                            <h1 className='text-3xl font-bold mb-2'>Blog Website</h1>
+                            <p className='text-gray-300 mb-4'>A modern blog website using Next.js, Tailwind CSS, and CMS integration.</p>
+                            <Link href='https://my-blog-web-gilt.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
+                        </div>
+                    </div>
+                    <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60'>
+                        <Image
+                            src="/book-api.jpg"
+                            alt="Book API"
+                            width={400}
+                            height={200}
+                            className='w-full h-48 object-cover'
+                        />
+                        <div className='p-6'>
+                            <h1 className='text-3xl font-bold mb-2'>Book API Project</h1>
+                            <p className='text-gray-300 mb-4'>A book search application powered by an external API, built with Next.js.</p>
+                            <Link href='https://book-api-project.vercel.app/' className='bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded transition duration-300'>View Project</Link>
+                        </div>
+                    </div>
                     <div className='bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-pink-500/60 '>
                         <Image
                             src="/blog-web.jpg"
