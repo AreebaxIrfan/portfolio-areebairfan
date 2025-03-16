@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 
 export default function Home() {
   useEffect(() => {
-    // Apply smooth scrolling to the entire page
+    // Apply smooth scrolling to the entire 
     document.documentElement.style.scrollBehavior = 'smooth';
     
     // Optional: Reset scroll behavior on component unmount
