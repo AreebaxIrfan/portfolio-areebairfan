@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Skills from "./Skills/page";
 import Protfolio from "./Portfolio/page";
@@ -17,10 +16,8 @@ export default function Home() {
       document.documentElement.style.scrollBehavior = 'auto';
     };
   }, []);
-
   return (
    <>
-
    <div className="smooth-scroll">
    <HeroSection/>
    <Skills/>
