@@ -1,5 +1,5 @@
 "use client"
-import HeroSection from "./components/HeroSection";
+import HeroSection from "../components/LandingPage/HeroSection";
 import Skills from "./Skills/page";
 import Protfolio from "./Portfolio/page";
 import About from "./About/page";
