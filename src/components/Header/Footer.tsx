@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaMedium, FaTwitter } from 'react-icons/fa';
 import Link from 'next/link'
 import React from 'react'
 
@@ -27,10 +27,12 @@ const Footer = () => {
                     <div className='w-full md:w-1/3'>
                         <h4 className='text-2xl text-white font-semibold mb-5 '>Connect</h4>
                         <div className='flex space-x-4'>
-                        <SocialLink href="www.linkedin.com/in/areebairfan" icon={<FaLinkedin />} />
-                <SocialLink href="https://github.com/Areeba-irfan-Github-account" icon={<FaGithub />} />
-                <SocialLink href="https://www.facebook.com/profile.php?id=61562497645022" icon={<FaFacebook />} />
-                <SocialLink href="https://www.instagram.com/areeba.__.irfan/" icon={<FaInstagram />} />
+                            <SocialLink href="https://linkedin.com/in/areebairfan" icon={<FaLinkedin />} />
+                            <SocialLink href="https://github.com/Areeba-irfan-Github-account" icon={<FaGithub />} />
+                            <SocialLink href="https://www.facebook.com/profile.php?id=61562497645022" icon={<FaFacebook />} />
+                            <SocialLink href="https://www.instagram.com/areeba.__.irfan/" icon={<FaInstagram />} />
+                            <SocialLink href="https://x.com/areebaXirfan" icon={<FaTwitter />} />
+                            <SocialLink href="https://medium.com/@areebaIrfan_" icon={<FaMedium />} />
 
                         </div>
                     </div>

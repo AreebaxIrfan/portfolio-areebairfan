@@ -5,7 +5,7 @@ import Link from 'next/link';
 const page = () => {
     return (
         <>  
-            <div className='min-h-screen bg-black text-white p-4'>
+            <div className='bg-black text-white p-4'>
                 <h1 className='text-6xl font-bold mb-8 text-center text-pink-600 p-4'>&lt;Portfolio/&gt;</h1>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-7 p-2'>
