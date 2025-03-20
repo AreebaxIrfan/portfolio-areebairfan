@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Areeba Irfan",
   description: "🙌 I build innovative software solutions & next-gen applications with over 1+ years in tech. ✨ I specialize in crafting scalable products using modern tech-stacks, and I'm an open-source enthusiast & community builder. 🤖 I'm passionate about cloud and AI innovations."
 }
 
