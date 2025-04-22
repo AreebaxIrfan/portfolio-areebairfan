@@ -6,7 +6,6 @@ import React from 'react';
 const HeroSection = () => {
     return (
         <div className='bg-black text-white flex flex-col md:flex-row items-center justify-center p-4  md:p-8 relative'>
-
             {/* Text Content Section */}
             <div className='w-full md:w-1/2 mx-auto md:ml-16 md:mr-10 text-center md:text-left mb-8 md:mb-0 relative z-10 sm:p-1 p-6 font-sans'>
                 <h1 className='text-4xl sm:text-5xl font-semibold mb-4'>Hello, I'm Areeba Irfan</h1>
