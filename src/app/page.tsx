@@ -8,6 +8,8 @@ import { useEffect } from 'react';
 
 export default function Home() {
   useEffect(() => {
+
+    
     // Apply smooth scrolling to the entire 
     document.documentElement.style.scrollBehavior = 'smooth';
     
